@@ -1,0 +1,20 @@
+Package: dgshuffle
+Title: Shuffle a Dataframe for Plate Layout
+Version: 0.1.0
+Authors@R: 
+    person("Greg", "Wilson", , "greg@deepgenomics.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8659-8979"))
+Description: Given a dataframe with columns ABCD and rows 1234, produce a dataframe
+    with columns AAACCCBBBDDD and rows 1324.
+License: Copyright (c) Deep Genomics 2022
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: R (>= 4.0.0)
+Imports: 
+    dplyr,
+    stringr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
